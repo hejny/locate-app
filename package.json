@@ -23,7 +23,7 @@
         "preversion": "npm run lint && npm run test && npm run generate-main-exports-commit && npm run generate-documentation-commit",
         "postversion": "npm publish && git push",
         "generate-documentation": "typedoc",
-        "generate-documentation-commit": "git diff --exit-code && npm run documentation && git add docs && git commit --allow-empty -m \"🏭 Generate documentation\"",
+        "generate-documentation-commit": "git diff --exit-code && npm run generate-documentation && git add docs && git commit --allow-empty -m \"🏭 Generate documentation\"",
         "generate-main-exports": "ts-node ./scripts/generate-main-exports/generate-main-exports.ts",
         "generate-main-exports-commit": "git diff --exit-code && npm run generate-main-exports && git add src && git commit --allow-empty -m \"🏭 Generate main exports\""
     },
