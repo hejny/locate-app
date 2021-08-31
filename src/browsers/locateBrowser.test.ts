@@ -12,19 +12,33 @@ describe('locating the browser', () => {
     });
 
     it('should locate Safari', async () => {
-        await expect(locateBrowser('safari')).resolves.toMatch(/safari/i);
+        if (process.platform === 'darwin') {
+            await expect(locateBrowser('safari')).resolves.toMatch(/safari/i);
+        } else {
+            await expect(locateBrowser('safari')).rejects.toThrow();
+        }
         expect.assertions(1);
     });
 
     it('should locate Edge', async () => {
-        await expect(locateBrowser('edge')).resolves.toMatch(/msedge/i);
-        await expect(locateBrowser('edge')).resolves.toMatch(/msedge/i);
+        if (process.platform === 'win32') {
+            await expect(locateBrowser('edge')).resolves.toMatch(/msedge/i);
+            await expect(locateBrowser('msedge')).resolves.toMatch(/msedge/i);
+        } else {
+            await expect(locateBrowser('edge')).rejects.toThrow();
+            await expect(locateBrowser('msedge')).rejects.toThrow();
+        }
         expect.assertions(2);
     });
 
     it('should locate Internet Explorer', async () => {
-        await expect(locateBrowser('ie')).resolves.toMatch(/iexplore/i);
-        await expect(locateBrowser('msie')).resolves.toMatch(/iexplore/i);
+        if (process.platform === 'win32') {
+            await expect(locateBrowser('ie')).resolves.toMatch(/iexplore/i);
+            await expect(locateBrowser('msie')).resolves.toMatch(/iexplore/i);
+        } else {
+            await expect(locateBrowser('edge')).rejects.toThrow();
+            await expect(locateBrowser('msedge')).rejects.toThrow();
+        }
         expect.assertions(2);
     });
 
