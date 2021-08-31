@@ -27,7 +27,7 @@ export function locateApp({
         }
     } else if (process.platform === 'darwin') {
         if (macOsName) {
-            return locateAppOnMacOs({ appName, macOsName: macOsName });
+            return locateAppOnMacOs({ appName, macOsName });
         } else {
             throw new Error(`${appName} is not available on macOS.`);
         }
