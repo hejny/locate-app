@@ -1,11 +1,11 @@
 # 🕵️ Locate ANY APP
 
-Find apps installed on your system. This util will helps to find executables of known app like Chrome, Firefox,... on Windows, Linux and maxOS out of the box.
+Find apps installed on your system. This util will help to find executables of a known app like Chrome, Firefox,... on Windows, Linux, and macOS out of the box.
 
 
 ## 🔎 Locating the Chrome browser
 
-Via this util it is extremely easy to get path to some browser:
+Via this utility it is extremely easy to get the path to some browser:
 
 ```typescript
 import { locateChrome } from 'locate-app';
@@ -13,7 +13,7 @@ import { locateChrome } from 'locate-app';
 const executablePath = await locateChrome();
 ```
 
-Than you can use **executablePath to open (spawn) the browser:**
+Then you can use **executablePath to open *(spawn)* the browser:**
 
 ```typescript
 import { locateChrome } from 'locate-app';
@@ -22,8 +22,8 @@ import { spawn } from 'child_process';
 spawn(await locateChrome(), ['https://github.com/hejny/locate-app']);
 ```
 
-*Locate app will ensure that file is executable. If it can not find the browser it will throw error.*
-Or you can use path to the browser as you want:
+*Locate app will ensure that file is executable. If it can not find the browser it will throw an error.*
+Or you can use the path to the browser as you want:
 
 ```typescript
 import { locateChrome } from 'locate-app';
@@ -44,7 +44,7 @@ const executablePath = await locateBrowser('edge');
 ```
 
 
-## 🔎 Locating some other app than browser
+## 🔎 Locating some other app than the browser
 
 You can locate any app but you need to 
 
@@ -62,7 +62,7 @@ await locateApp({
 
 ## 🔍 Documentation
 
-Project is fully typed so you probbably do not need the documentation. But if so, here it is:
+The project is fully typed so you probably do not need the documentation. But if so, here it is:
 https://hejny.github.io/locate-app/index.html
 
 
