@@ -1,4 +1,3 @@
-
 import { locateApp } from '../locateApp';
 
 export function locateInternetExplorer(): Promise<string> {
