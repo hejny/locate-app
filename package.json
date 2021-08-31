@@ -2,6 +2,7 @@
     "name": "locate-app",
     "version": "0.2.0",
     "description": "Find apps installed on your system.",
+    "main": "./dist/main.js",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/hejny/locate-app.git"
@@ -20,7 +21,7 @@
     "scripts": {
         "test": "jest --config jestconfig.json",
         "lint": "tslint -p tsconfig.json",
-        "preversion": "npm run lint && npm run test && npm run generate-main-exports-commit && npm run generate-documentation-commit",
+        "preversion": "npm run lint && npm run test && tsc && npm run generate-main-exports-commit && npm run generate-documentation-commit",
         "postversion": "npm publish && git push",
         "generate-documentation": "typedoc",
         "generate-documentation-commit": "git diff --exit-code && npm run generate-documentation && git add docs && git commit --allow-empty -m \"🏭 Generate documentation\"",
