@@ -10,6 +10,17 @@
             "name": "🧪 Lint",
             "command": "npm run lint",
             "onlySingle": true
+        },
+        {
+            "name": "🏭 Generate main exports",
+            "command": "npm run generate-main-exports",
+            "onlySingle": true
+        },
+        {
+            "name": "🏭 Generate documentation",
+            "command": "npm run generate-documentation",
+            "onlySingle": true
         }
+    
     ]
 }
