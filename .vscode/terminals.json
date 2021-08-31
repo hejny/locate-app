@@ -1,0 +1,15 @@
+{
+    "autokill": true,
+    "terminals": [
+        {
+            "name": "🧪 Test",
+            "command": "npm run test",
+            "onlySingle": true
+        },
+        {
+            "name": "🧪 Lint",
+            "command": "npm run lint",
+            "onlySingle": true
+        }
+    ]
+}
