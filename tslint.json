@@ -1,0 +1,14 @@
+{
+    "extends": ["tslint:recommended"],
+    "rules": {
+        "object-literal-sort-keys": false,
+        "no-console": false,
+        "jsdoc-format": false,
+        "max-classes-per-file": {
+            "options": [4]
+        },
+        "comment-format": false,
+        "no-empty": false,
+        "array-type": [true, "array-simple"]
+    }
+}

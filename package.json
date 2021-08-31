@@ -1,0 +1,41 @@
+{
+    "name": "locate-app",
+    "version": "0.1.0",
+    "description": "Find apps installed on your system.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hejny/locate-app.git"
+    },
+    "keywords": [
+        "typescript",
+        "utils",
+        "helper"
+    ],
+    "author": "Pavol Hejný <me@pavolhejny.com> (https://pavolhejny.com)",
+    "license": "SEE LICENSE IN LICENSE",
+    "bugs": {
+        "url": "https://github.com/hejny/locate-app/issues"
+    },
+    "homepage": "https://github.com/hejny/locate-app",
+    "scripts": {
+        "test": "jest --config jestconfig.json",
+        "lint": "tslint -p tsconfig.json",
+        "develop": "ts-node-dev ./src/colldev/main.ts develop ./test-samples/hello-world --browser edge",
+        "prepare": "tsc",
+        "prepack": "npm run lint && npm run test",
+        "documentation": "typedoc",
+        "postversion": "npm publish && git push"
+    },
+    "dependencies": {
+        "ts-loader": "^8.2.0",
+        "typescript": "^4.0.3",
+        "userhome": "^1.0.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^26.0.24",
+        "jest": "^27.0.6",
+        "ts-jest": "^27.0.3",
+        "tslint": "^6.1.3",
+        "typedoc": "^0.20.36"
+    }
+}

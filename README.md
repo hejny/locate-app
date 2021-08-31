@@ -1,2 +1,2 @@
 # locate-app
- Find apps installed on your system.
+Find apps installed on your system.
