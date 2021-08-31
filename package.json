@@ -25,7 +25,7 @@
         "generate-documentation": "typedoc",
         "generate-documentation-commit": "git diff --exit-code && npm run documentation && git add docs && git commit --allow-empty -m \"🏭 Generate documentation\"",
         "generate-main-exports": "ts-node ./scripts/generate-main-exports/generate-main-exports.ts",
-        "generate-main-exports-commit": "git diff --exit-code && npm run generate-main-exports && npm run prettier && git add src && git commit --allow-empty -m \"🏭 Generate main exports\""
+        "generate-main-exports-commit": "git diff --exit-code && npm run generate-main-exports && git add src && git commit --allow-empty -m \"🏭 Generate main exports\""
     },
     "dependencies": {
         "ts-loader": "^8.2.0",
