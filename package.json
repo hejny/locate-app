@@ -29,8 +29,6 @@
         "generate-main-exports-commit": "git diff --exit-code && npm run generate-main-exports && git add src && git commit --allow-empty -m \"🏭 Generate main exports\""
     },
     "dependencies": {
-        "ts-loader": "^8.2.0",
-        "typescript": "^4.0.3",
         "userhome": "^1.0.0"
     },
     "devDependencies": {
@@ -39,6 +37,8 @@
         "jest": "^27.0.6",
         "ts-jest": "^27.0.3",
         "tslint": "^6.1.3",
-        "typedoc": "^0.21.9"
+        "typedoc": "^0.21.9",
+        "ts-loader": "^8.2.0",
+        "typescript": "^4.0.3"
     }
 }
