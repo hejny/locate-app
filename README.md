@@ -33,7 +33,7 @@ await puppeteer.launch({ executablePath: await locateChrome() });
 ```
 
 
-## 🔍 Locating any browser
+## 🔍 Locating arbitrary browser
 
 You can use functions [locateChrome](https://hejny.github.io/locate-app/modules.html#locateChrome), [locateEdge](https://hejny.github.io/locate-app/modules.html#locateEdge), [locateFirefox](https://hejny.github.io/locate-app/modules.html#locateFirefox), [locateInternetExplorer](https://hejny.github.io/locate-app/modules.html#locateInternetExplorer), [locateSafari](https://hejny.github.io/locate-app/modules.html#locateSafari) or **universal [locateBrowser](https://hejny.github.io/locate-app/modules.html#locateBrowser)** which recieves param which browser to locate:
 
@@ -44,9 +44,9 @@ const executablePath = await locateBrowser('edge');
 ```
 
 
-## 🔎 Locating some other app than the browser
+## 🔎 Locating arbitrary app
 
-You can locate any app but you need to 
+You can locate any app very easily. You need to provide breadcrumbs for each platform. If you omit some platform it does not matter but there will be an error in runtime if you try to run it on the omitted os.
 
 ```typescript
 import { locateApp } from 'locate-app';
