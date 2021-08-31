@@ -10,7 +10,7 @@ declare module 'userhome' {
     }
 }
 
-export const exec = promisify(execLegacy);
+const exec = promisify(execLegacy);
 
 export async function locateAppOnMacOs({
     appName,

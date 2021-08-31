@@ -2,7 +2,7 @@ import { exec as execLegacy } from 'child_process';
 import { promisify } from 'util';
 import { ILocateAppOptions } from '../locateApp';
 
-export const exec = promisify(execLegacy);
+const exec = promisify(execLegacy);
 
 export async function locateAppOnLinux({
     appName,
