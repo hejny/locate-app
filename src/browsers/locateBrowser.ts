@@ -1,5 +1,6 @@
 import { isExecutable } from '../utils/isExecutable';
 import { locateChrome } from './locateChrome';
+import { locateDefaultSystemBrowser } from './locateDefaultSystemBrowser';
 import { locateEdge } from './locateEdge';
 import { locateFirefox } from './locateFirefox';
 import { locateInternetExplorer } from './locateInternetExplorer';
@@ -15,10 +16,8 @@ export async function locateBrowser(browser: string): Promise<string> {
         browser = browser.toLowerCase();
 
         if (browser === 'default') {
-            browser = 'chrome';
-            // TODO: Get default system browser DO not expect chrome
+            browser = await locateDefaultSystemBrowser();
         } /* not else */
-
         if (browser === 'chrome') {
             return locateChrome();
         } else if (browser === 'firefox') {
