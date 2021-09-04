@@ -13,7 +13,7 @@ export async function getAppName(executablePath: string): Promise<string> {
     );
 
     if (match) {
-        let appName = match.groups!.browserName!;
+        const appName = match.groups!.browserName!;
 
         if (appName === 'iexplore') {
             return 'Internet Explorer';
