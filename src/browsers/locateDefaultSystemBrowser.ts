@@ -5,5 +5,6 @@
  */
 export async function locateDefaultSystemBrowser(): Promise<string> {
     return 'chrome';
-    // TODO: Get default system browser DO not expect chrome
+    // TODO: Get default system browser DO not expect Chrome
+    //       @see https://www.npmjs.com/package/x-default-browser
 }
