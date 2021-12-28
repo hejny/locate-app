@@ -1,5 +1,7 @@
 # 🕵️ Locate ANY APP
 
+[![npm version](https://badge.fury.io/js/locate-app.svg)](https://badge.fury.io/js/locate-app)
+
 Find apps installed on your system. This util will help to find executables of a known app like Chrome, Firefox,... on Windows, Linux, and macOS out of the box.
 
 ![Social media wallpaper for Locate app project](/media/locate-app-social-wallpaper.png)
