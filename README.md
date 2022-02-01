@@ -1,5 +1,15 @@
 # 🕵️ Locate ANY APP
 
+<!--Badges-->
+
+ [![Package Quality](https://packagequality.com/shield/locate-app.svg)](https://packagequality.com/#?package=locate-app)
+ [![License](https://img.shields.io/github/license/hejny/locate-app.svg?style=flat)](https://raw.githubusercontent.com/hejny/locate-app/master/LICENSE)
+ [![NPM Version](https://badge.fury.io/js/@hejny%2Flocate-app.svg)](https://www.npmjs.com/package/@hejny/locate-app)
+ [![Known Vulnerabilities](https://snyk.io/test/github/hejny/locate-app/badge.svg)](https://snyk.io/test/github/hejny/locate-app)
+ [![Issues](https://img.shields.io/github/issues/hejny/locate-app.svg?style=flat)](https://github.com/hejny/locate-app/issues)
+
+<!--/Badges-->
+
 [![npm version](https://badge.fury.io/js/locate-app.svg)](https://badge.fury.io/js/locate-app)
 
 Find apps installed on your system. This util will help to find executables of a known app like Chrome, Firefox,... on Windows, Linux, and macOS out of the box.
