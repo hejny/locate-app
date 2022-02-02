@@ -2,8 +2,9 @@
 
 <!--Badges-->
 
- [![Package Quality](https://packagequality.com/shield/locate-app.svg)](https://packagequality.com/#?package=locate-app)
- [![License](https://img.shields.io/github/license/hejny/locate-app.svg?style=flat)](https://raw.githubusercontent.com/hejny/locate-app/master/LICENSE)
+ [![License of 🕵️ Locate ANY APP](https://img.shields.io/github/license/hejny/locate-app.svg?style=flat)](https://github.com/hejny/locate-app/blob/main/LICENSE)
+ [![NPM Version of 🕵️ Locate ANY APP](https://badge.fury.io/js/locate-app.svg)](https://www.npmjs.com/package/locate-app)
+ [![Quality of package 🕵️ Locate ANY APP](https://packagequality.com/shield/locate-app.svg)](https://packagequality.com/#?package=locate-app)
  [![Known Vulnerabilities](https://snyk.io/test/github/hejny/locate-app/badge.svg)](https://snyk.io/test/github/hejny/locate-app)
  [![Issues](https://img.shields.io/github/issues/hejny/locate-app.svg?style=flat)](https://github.com/hejny/locate-app/issues)
 
