@@ -135,10 +135,6 @@ I am open to pull requests, feedback, and suggestions. Or if you like this utili
 ## ✨ Partners
 
 
-<a href="https://www.h-edu.org/">
-<img src="https://www.h-edu.org/media/favicon.png" alt="H-edu logo" width="50"  />
-</a>
-&nbsp;&nbsp;&nbsp;
 <a href="https://collboard.com/">
 <img src="https://collboard.fra1.cdn.digitaloceanspaces.com/assets/18.12.1/logo-small.png" alt="Collboard logo" width="50"  />
 </a>
