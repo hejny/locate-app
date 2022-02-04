@@ -1,7 +1,7 @@
 {
   "name": "locate-app",
   "version": "1.2.0",
-  "description": "Find apps installed on your system.",
+  "description": "npm version",
   "main": "./dist/main.js",
   "repository": {
     "type": "git",
