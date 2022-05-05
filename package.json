@@ -5,7 +5,7 @@
   "main": "./dist/main.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hejny/locate-app.git"
+    "url": "https://github.com/hejny/locate-app"
   },
   "keywords": [
     "typescript",
