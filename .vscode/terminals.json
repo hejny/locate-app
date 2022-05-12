@@ -1,26 +1,43 @@
 {
-    "autokill": true,
-    "terminals": [
-        {
-            "name": "🧪 Test",
-            "command": "npm run test",
-            "onlySingle": true
-        },
-        {
-            "name": "🧪 Lint",
-            "command": "npm run lint",
-            "onlySingle": true
-        },
-        {
-            "name": "🏭 Generate main exports",
-            "command": "npm run generate-main-exports",
-            "onlySingle": true
-        },
-        {
-            "name": "🏭 Generate documentation",
-            "command": "npm run generate-documentation",
-            "onlySingle": true
-        }
-    
-    ]
+  "autokill": true,
+  "terminals": [
+    {
+      "name": "🧪 Test",
+      "command": "npm run test",
+      "onlySingle": true
+    },
+    {
+      "name": "🧪 Lint",
+      "command": "npm run lint",
+      "onlySingle": true
+    },
+    {
+      "name": "🏭 Generate main exports",
+      "command": "npm run generate-main-exports",
+      "onlySingle": true
+    },
+    {
+      "name": "🏭 Generate documentation",
+      "command": "npm run generate-documentation",
+      "onlySingle": true
+    },
+    {
+      "name": "🔼👑 Release major version",
+      "command": "npm version major",
+      "onlySingle": true,
+      "focus": true
+    },
+    {
+      "name": "🔼🚀 Release minor version",
+      "command": "npm version minor",
+      "onlySingle": true,
+      "focus": true
+    },
+    {
+      "name": "🔼🩹 Release patch version",
+      "command": "npm version patch",
+      "onlySingle": true,
+      "focus": true
+    }
+  ]
 }
