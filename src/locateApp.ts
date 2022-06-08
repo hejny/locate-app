@@ -1,7 +1,7 @@
+import { RequireAtLeastOne } from 'type-fest';
 import { locateAppOnLinux } from './platforms/locateAppOnLinux';
 import { locateAppOnMacOs } from './platforms/locateAppOnMacOs';
 import { locateAppOnWindows } from './platforms/locateAppOnWindows';
-import { RequireAtLeastOne } from './utils/RequireAtLeastOne';
 
 export interface ILocateAppOptions {
     appName: string;
