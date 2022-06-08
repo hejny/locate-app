@@ -29,7 +29,6 @@
         "exclude": ["./src/utils/**"],
         "includeVersion": true,
         "hideGenerator": true,
-        "theme": "minimal",
         "out": "./docs",
         "gitRemote": "https://github.com/hejny/locate-app"
     }
