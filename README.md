@@ -74,6 +74,18 @@ const executablePathOfSafari = await locateBrowser('safari');
 const executablePathOfEdge = await locateBrowser('edge');
 ```
 
+
+## 👨‍💻 Locating VSCode
+
+
+```typescript
+import { locateChrome } from 'locate-app';
+import { spawn } from 'child_process';
+
+spawn(await locateVSCode(), ['~/work/my-awesome-project']);
+```
+
+
 ## 🔍 Locating arbitrary app
 
 You can locate any app very easily. You need to provide breadcrumbs for each platform. If you omit some platform it does not matter but there will be an error in runtime if you try to run it on the omitted os.
