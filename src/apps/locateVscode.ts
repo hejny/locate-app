@@ -1,10 +1,10 @@
 import { locateApp } from '../locateApp';
 
-export function locateVscode(): Promise<string> {
+export function locateVSCode(): Promise<string> {
     return locateApp({
-        appName: 'Firefox',
-        linuxWhich: 'firefox',
-        windowsSuffix: '\\Mozilla Firefox\\firefox.exe',
-        macOsName: 'Firefox',
+        appName: 'Code',
+        linuxWhich: 'code',
+        windowsSuffix: '\\Microsoft VS Code\\Code.exe',
+        macOsName: 'Code',
     });
 }

@@ -5,9 +5,9 @@ import { locateAppOnWindows } from './platforms/locateAppOnWindows';
 
 export interface ILocateAppOptions {
     appName: string;
-    linuxWhich: string;
-    windowsSuffix: string;
-    macOsName: string;
+    linuxWhich?: string;
+    windowsSuffix?: string;
+    macOsName?: string;
 }
 
 export function locateApp({

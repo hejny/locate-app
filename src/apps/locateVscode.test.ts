@@ -1,4 +1,4 @@
-import { locateVscode } from './locateVscode';
+import { locateVscode } from './locateVSCode';
 
 describe('locating the Visual Studio Code IDE', () => {
     it('should locate Visual Studio Code IDE', async () => {

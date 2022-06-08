@@ -12,6 +12,11 @@
             "onlySingle": true
         },
         {
+            "name": "🧪 Test by run",
+            "command": "ts-node ./src/test-by-run.ts",
+            "onlySingle": true
+        },
+        {
             "name": "🏭 Generate main exports",
             "command": "npm run generate-main-exports",
             "onlySingle": true

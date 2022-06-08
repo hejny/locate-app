@@ -7,7 +7,7 @@ const exec = promisify(execLegacy);
 export async function locateAppOnLinux({
     appName,
     linuxWhich,
-}: Pick<ILocateAppOptions, 'appName' | 'linuxWhich'>): Promise<string> {
+}: Pick<Required<ILocateAppOptions>, 'appName' | 'linuxWhich'>): Promise<string> {
     const { stderr, stdout } = await exec(`which ${linuxWhich}`);
 
     if (!stderr && stdout) {
