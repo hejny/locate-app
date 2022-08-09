@@ -1,0 +1,5 @@
+Find apps installed on your system. This util will help to find executables of a known app like Chrome, Firefox,... on Windows, Linux, and macOS out of the box.
+--aspect 2:1  --quality 2 --stylize 1250 --version 3
+--seed 9297014
+
+Note: All lines bellow (including this) are ignored.
