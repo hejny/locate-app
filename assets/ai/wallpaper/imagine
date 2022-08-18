@@ -1,5 +1,34 @@
-Wallpaper in minimalistic style for project that Find apps installed on your system. This util will help to find executables of a known app like Chrome, Firefox,... on Windows, Linux, and macOS out of the box.
---aspect 2:1 --version 3
---seed 6811793
+# Note: Each part is new input for imagine command
+#       And every first line will be searched during the harvesting phase
 
-Note: All lines bellow (including this) are ignored.
+Find apps installed on your system. This util will help to find executables of a known app like Chrome, Firefox,... on Windows, Linux, and macOS out of the box.
+--aspect 2:1
+--seed 8104667
+
+Banner for Find apps installed on your system. This util will help to find executables of a known app like Chrome, Firefox,... on Windows, Linux, and macOS out of the box.
+--aspect 2:1
+--seed 8104667
+
+Find apps installed on your system. This util will help to find executables of a known app like Chrome, Firefox,... on Windows, Linux, and macOS out of the box.
+--aspect 2:1 --hd
+--seed 8104667
+
+Banner for Find apps installed on your system. This util will help to find executables of a known app like Chrome, Firefox,... on Windows, Linux, and macOS out of the box.
+--aspect 2:1 --hd
+--seed 8104667
+
+Find apps installed on your system. This util will help to find executables of a known app like Chrome, Firefox,... on Windows, Linux, and macOS out of the box.
+--aspect 2:1 --quality 2
+--seed 8104667
+
+Banner for Find apps installed on your system. This util will help to find executables of a known app like Chrome, Firefox,... on Windows, Linux, and macOS out of the box.
+--aspect 2:1 --quality 2
+--seed 8104667
+
+Find apps installed on your system. This util will help to find executables of a known app like Chrome, Firefox,... on Windows, Linux, and macOS out of the box.
+--aspect 2:1 --hd --quality 2
+--seed 8104667
+
+Banner for Find apps installed on your system. This util will help to find executables of a known app like Chrome, Firefox,... on Windows, Linux, and macOS out of the box.
+--aspect 2:1 --hd --quality 2
+--seed 8104667
