@@ -1,7 +1,7 @@
 {
     "name": "locate-app",
     "version": "2.0.0",
-    "description": "Find apps installed on your system. This util will help to find executables of a known app like Chrome, Firefox,... on Windows, Linux, and macOS out of the box.",
+    "description": "I am open to pull requests, feedback, and suggestions. Or if you like this utility, you can ☕ buy me a coffee or donate via cryptocurrencies.",
     "main": "./dist/main.js",
     "repository": {
         "type": "git",
