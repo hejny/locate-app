@@ -1,1 +1,47 @@
-undefined
+{
+    "name": "locate-app",
+    "version": "2.0.0",
+    "description": "Find apps installed on your system. This util will help to find executables of a known app like Chrome, Firefox,... on Windows, Linux, and macOS out of the box.",
+    "main": "./dist/main.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hejny/locate-app"
+    },
+    "keywords": [
+        "typescript",
+        "utils",
+        "helper"
+    ],
+    "author": "Pavol Hejný <me@pavolhejny.com> (https://pavolhejny.com)",
+    "license": "SEE LICENSE IN LICENSE",
+    "bugs": {
+        "url": "https://github.com/hejny/locate-app/issues"
+    },
+    "homepage": "https://github.com/hejny/locate-app",
+    "scripts": {
+        "test": "jest --config jestconfig.json",
+        "lint": "tslint -p tsconfig.json",
+        "preversion": "npm run lint && npm run test && npm run generate-main-exports-commit && npm run generate-documentation-commit && tsc",
+        "postversion": "npm publish && git push",
+        "generate-documentation": "typedoc",
+        "generate-documentation-commit": "git diff --exit-code && npm run generate-documentation && git add docs && git commit --allow-empty -m \"🏭 Generate documentation\"",
+        "generate-main-exports": "ts-node ./scripts/generate-main-exports/generate-main-exports.ts",
+        "generate-main-exports-commit": "git diff --exit-code && npm run generate-main-exports && git add src && git commit --allow-empty -m \"🏭 Generate main exports\""
+    },
+    "dependencies": {
+        "n12": "0.4.0",
+        "userhome": "1.0.0",
+        "type-fest": "2.13.0"
+    },
+    "devDependencies": {
+        "@types/jest": "26.0.24",
+        "glob-promise": "4.2.0",
+        "jest": "27.0.6",
+        "ts-jest": "27.0.3",
+        "ts-loader": "8.2.0",
+        "ts-node": "10.8.1",
+        "tslint": "6.1.3",
+        "typedoc": "0.22.17",
+        "typescript": "4.7.3"
+    }
+}
