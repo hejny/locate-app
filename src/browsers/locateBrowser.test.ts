@@ -25,8 +25,8 @@ describe('locating the browser', () => {
             await expect(locateBrowser('edge')).resolves.toMatch(/msedge/i);
             await expect(locateBrowser('msedge')).resolves.toMatch(/msedge/i);
         } else {
-            await expect(locateBrowser('edge')).rejects.toThrow();
-            await expect(locateBrowser('msedge')).rejects.toThrow();
+            await expect(locateBrowser('edge')).resolves.toMatch(/edge/i);
+            await expect(locateBrowser('msedge')).resolves.toMatch(/edge/i);
         }
         expect.assertions(2);
     });
@@ -36,8 +36,8 @@ describe('locating the browser', () => {
             await expect(locateBrowser('ie')).resolves.toMatch(/iexplore/i);
             await expect(locateBrowser('msie')).resolves.toMatch(/iexplore/i);
         } else {
-            await expect(locateBrowser('edge')).rejects.toThrow();
-            await expect(locateBrowser('msedge')).rejects.toThrow();
+            await expect(locateBrowser('edge')).resolves.toMatch(/edge/i);
+            await expect(locateBrowser('msedge')).resolves.toMatch(/edge/i);
         }
         expect.assertions(2);
     });

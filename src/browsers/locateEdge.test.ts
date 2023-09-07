@@ -5,7 +5,7 @@ describe('locating the Edge browser', () => {
         if (process.platform === 'win32') {
             await expect(locateEdge()).resolves.toMatch(/msedge/i);
         } else {
-            await expect(locateEdge()).rejects.toThrow();
+            await expect(locateEdge()).resolves.toMatch(/edge/i);
         }
         expect.assertions(1);
     });

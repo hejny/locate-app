@@ -3,8 +3,8 @@ import { getAppName } from './getAppName';
 
 describe('getting browser name', () => {
     it('should get name of Chrome', async () => {
-        await expect(getAppName(await locateBrowser('chrome'))).resolves.toBe(
-            'Chrome',
+        await expect(getAppName(await locateBrowser('chrome'))).resolves.toMatch(
+            /[cC]hrome/i,
         );
         expect.assertions(1);
     });

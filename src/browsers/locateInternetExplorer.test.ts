@@ -7,7 +7,7 @@ describe('locating the Internet Explorer browser', () => {
                 /iexplore/i,
             );
         } else {
-            await expect(locateInternetExplorer()).rejects.toThrow();
+            await expect(() => locateInternetExplorer()).toThrowError("ie is not available on macOS");
         }
 
         expect.assertions(1);
