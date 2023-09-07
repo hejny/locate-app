@@ -8,6 +8,8 @@ export interface ILocateAppOptions {
     linuxWhich?: string;
     windowsSuffix?: string;
     macOsName?: string;
+    macOsPackageName?: string;
+    macOsExecName?: string;
 }
 
 export function locateApp({
@@ -15,9 +17,11 @@ export function locateApp({
     linuxWhich,
     windowsSuffix,
     macOsName,
+    macOsPackageName,
+    macOsExecName
 }: RequireAtLeastOne<
     ILocateAppOptions,
-    'linuxWhich' | 'windowsSuffix' | 'macOsName'
+    'linuxWhich' | 'windowsSuffix' | 'macOsName' | 'macOsPackageName' | 'macOsExecName'
 >): Promise<string> {
     if (process.platform === 'win32') {
         if (windowsSuffix) {
@@ -26,8 +30,8 @@ export function locateApp({
             throw new Error(`${appName} is not available on Windows.`);
         }
     } else if (process.platform === 'darwin') {
-        if (macOsName) {
-            return locateAppOnMacOs({ appName, macOsName });
+        if (macOsName !== undefined || macOsPackageName !== undefined || macOsExecName !== undefined)  {
+            return locateAppOnMacOs({ appName, macOsName, macOsPackageName, macOsExecName });
         } else {
             throw new Error(`${appName} is not available on macOS.`);
         }

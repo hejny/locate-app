@@ -5,6 +5,8 @@ export function locateVSCode(): Promise<string> {
         appName: 'Code',
         linuxWhich: 'code',
         windowsSuffix: '\\Microsoft VS Code\\Code.exe',
-        macOsName: 'Code',
+        macOsName: 'Visual Studio Code',
+        macOsPackageName: 'Visual Studio Code',
+        macOsExecName: 'Electron',
     });
 }
