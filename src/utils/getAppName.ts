@@ -1,4 +1,4 @@
-import { capitalizeFirstLetter } from 'n12';
+import { capitalize } from 'n12';
 
 /**
  *
@@ -20,7 +20,7 @@ export async function getAppName(executablePath: string): Promise<string> {
         } else if (appName === 'msedge') {
             return 'Edge';
         } else {
-            return capitalizeFirstLetter(appName);
+            return capitalize(appName);
         }
     }
 
