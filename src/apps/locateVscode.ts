@@ -1,6 +1,6 @@
 import { locateApp } from '../locateApp';
 
-export function locateVSCode(): Promise<string> {
+export function locateVscode(): Promise<string> {
     return locateApp({
         appName: 'Code',
         linuxWhich: 'code',
