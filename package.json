@@ -29,9 +29,9 @@
         "generate-main-exports-commit": "git diff --exit-code && npm run generate-main-exports && git add src && git commit --allow-empty -m \"🏭 Generate main exports\""
     },
     "dependencies": {
-        "n12": "0.4.0",
-        "userhome": "1.0.0",
-        "type-fest": "2.13.0"
+        "n12": "^1.8.6",
+        "type-fest": "2.13.0",
+        "userhome": "1.0.0"
     },
     "devDependencies": {
         "@types/jest": "26.0.24",
