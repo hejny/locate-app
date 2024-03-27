@@ -2,6 +2,7 @@
 /// <reference path="./userhome.d.ts" />
 
 import { exec as execLegacy } from 'child_process';
+import { RequireAtLeastOne } from 'type-fest';
 import userhome from 'userhome';
 import { promisify } from 'util';
 import { ILocateAppOptions } from '../locateApp';
@@ -12,12 +13,19 @@ const exec = promisify(execLegacy);
 export async function locateAppOnMacOs({
     appName,
     macOsName,
-}: Pick<
-    Required<ILocateAppOptions>,
-    'appName' | 'macOsName'
->): Promise<string> {
-    const toExec = `/Contents/MacOS/${macOsName}`;
-    const regPath = `/Applications/${macOsName}.app` + toExec;
+    macOsPackageName,
+    macOsExecName,
+}: Pick<Required<ILocateAppOptions>,   'appName' > & Pick<RequireAtLeastOne<ILocateAppOptions>, 'macOsName' | 'macOsPackageName' | 'macOsExecName' >
+    ): Promise<string> {
+ if (!macOsPackageName) {
+  macOsPackageName = macOsName
+ }
+  if (!macOsExecName) {
+  macOsExecName = macOsName
+  }
+
+    const toExec = `/Contents/MacOS/${macOsExecName}`;
+    const regPath = `/Applications/${macOsPackageName}.app` + toExec;
     const altPath = userhome(regPath.slice(1));
 
     if (await isExecutable(regPath)) {
