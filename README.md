@@ -140,7 +140,7 @@ You can also ⭐ star the locate-app package, [follow me on GitHub](https://gith
 </a>
 &nbsp;&nbsp;&nbsp;
 <a href="https://webgpt.cz/?partner=ph&utm_medium=referral&utm_source=github-readme&utm_campaign=partner-ph">
-  <img src="https://webgpt.cz/_next/static/media/webgpt.black.b25d862f.svg" alt="WebGPT logo" width="50"  />
+  <img src="https://webgpt.cz/_next/static/media/webgpt.white.7e7069eb.png" alt="WebGPT logo" width="50"  />
 </a>
 
 
