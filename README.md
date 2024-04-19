@@ -143,6 +143,10 @@ You can also ⭐ star the locate-app package, [follow me on GitHub](https://gith
 <a href="https://webgpt.cz/?partner=ph&utm_medium=referral&utm_source=github-readme&utm_campaign=partner-ph">
   <img src="https://webgpt.cz/_next/static/media/webgpt-blue.e2bf1fff.png" alt="WebGPT logo" width="70"  />
 </a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/webgptorg/promptbook">
+  <img src="https://raw.githubusercontent.com/webgptorg/promptbook/main/other/design/logo.png" alt="Promptbook logo" width="45"  />
+</a>
 
 
 [Become a partner](https://www.pavolhejny.com/contact/)
