@@ -9,6 +9,7 @@
 [![Quality of package 🕵️ Locate ANY APP](https://packagequality.com/shield/locate-app.svg)](https://packagequality.com/#?package=locate-app)
 [![Known Vulnerabilities](https://snyk.io/test/github/hejny/locate-app/badge.svg)](https://snyk.io/test/github/hejny/locate-app)
 [![Issues](https://img.shields.io/github/issues/hejny/locate-app.svg?style=flat)](https://github.com/hejny/locate-app/issues)
+[![Socket](https://socket.dev/api/badge/npm/package/locate-app)](https://socket.dev/npm/package/locate-app)
 
 <!--/Badges-->
 
