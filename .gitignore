@@ -5,3 +5,6 @@ coverage
 
 # NPM configuration
 .npmrc
+
+# Graphics
+/assets
