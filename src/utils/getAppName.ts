@@ -1,4 +1,4 @@
-import { capitalize } from 'n12';
+import { capitalize } from '@promptbook/utils'; // <- TODO: Use partial imports
 
 /**
  *
