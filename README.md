@@ -136,9 +136,11 @@ You can also ⭐ star the locate-app package, [follow me on GitHub](https://gith
 ## ✨ Partners
 
 
-<a href="https://collboard.com/" title="Collboard"><img src="https://collboard.fra1.cdn.digitaloceanspaces.com/assets/18.12.1/logo-small.png" alt="Collboard" height="60"></a>
-<a href="https://webgpt.cz/?partner=ph&utm_medium=referral&utm_source=github-readme&utm_campaign=partner-ph" title="WebGPT"><img src="https://webgpt.cz/_next/static/media/webgpt-black.8d958d25.png" alt="WebGPT" height="60"></a>
-<a href="https://github.com/webgptorg/promptbook" title="Promptbook"><img src="https://raw.githubusercontent.com/webgptorg/promptbook/main/other/design/logo.png" alt="Promptbook" height="60"></a>
+<a href="https://collboard.com/" title="Collboard"><img src="https://collboard.fra1.cdn.digitaloceanspaces.com/assets/18.12.1/logo-small.png#gh-light-mode-only" alt="Collboard" height="60"/></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://webgpt.cz/?partner=ph&utm_medium=referral&utm_source=github-readme&utm_campaign=partner-ph" title="WebGPT"><img src="https://webgpt.cz/_next/static/media/webgpt-black.8d958d25.png#gh-light-mode-only" alt="WebGPT" height="60"/></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/webgptorg/promptbook" title="Promptbook"><img src="https://raw.githubusercontent.com/webgptorg/promptbook/main/other/design/logo.png#gh-light-mode-only" alt="Promptbook" height="60"/></a>
 
 
 [Become a partner](https://www.pavolhejny.com/contact/)
