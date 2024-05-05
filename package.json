@@ -29,7 +29,7 @@
         "generate-main-exports-commit": "git diff --exit-code && npm run generate-main-exports && git add src && git commit --allow-empty -m \"🏭 Generate main exports\""
     },
     "dependencies": {
-        "@promptbook/utils": "^0.48.0-1",
+        "@promptbook/utils": "0.48.0-1",
         "type-fest": "2.13.0",
         "userhome": "1.0.0"
     },
