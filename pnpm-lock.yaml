@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@promptbook/utils':
-        specifier: 0.52.0-28
-        version: 0.52.0-28
+        specifier: 0.54.0
+        version: 0.54.0
       type-fest:
         specifier: 2.13.0
         version: 2.13.0
@@ -307,8 +307,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@promptbook/utils@0.52.0-28':
-    resolution: {integrity: sha512-Z4VPSSXFGG3Q/RXKoHju2FydI/aSNywg7Ee2oqTKAo5+DDoxahnWjM/5TI4LSnFLmJiCMcBJ2WCwOObgV0dY1g==}
+  '@promptbook/utils@0.54.0':
+    resolution: {integrity: sha512-het+osfOVCVO25fc5KGOnLTj/6ADNdS3JJwHGbB56SEHCM44HT7goEG1h7c6u8JKZJl4MJZdp2m0iTYV9vG72g==}
 
   '@sinonjs/commons@1.8.6':
     resolution: {integrity: sha512-Ky+XkAkqPZSm3NLBeUng77EBQl3cmeJhITaGHdYH8kjVB+aun3S4XBRti2zt17mtt0mIUDiNxYeoJm6drVvBJQ==}
@@ -2204,7 +2204,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@promptbook/utils@0.52.0-28':
+  '@promptbook/utils@0.54.0':
     dependencies:
       spacetrim: 0.11.27
 
