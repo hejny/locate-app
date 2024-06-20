@@ -14,7 +14,10 @@ async function main() {
         'Warning: Do not edit by hand, all changes will be lost on next execution!',
     ];
 
-    const filesPath = await glob(join(__dirname, '../../src/**/*.ts'));
+    const filesPath = await glob(
+        join(__dirname, '../../src/**/*.ts').split('\\').join('/'),
+    );
+
     const files = await Promise.all(
         filesPath.map(async (path) => ({
             content: await promisify(readFile)(path, 'utf8'),
@@ -25,7 +28,8 @@ async function main() {
     const exports: Array<{ path: string; name: string }> = [];
     for (const file of files) {
         let execArray: any; // RegExpExecArray | null;
-        const regExp = /^export\s+(?!abstract)\s*(async)?\s*[a-z]+\s+(?<name>[a-zA-Z0-9_]+)/gm;
+        const regExp =
+            /^export\s+(?!abstract)\s*(async)?\s*[a-z]+\s+(?<name>[a-zA-Z0-9_]+)/gm;
         while ((execArray = regExp.exec(file.content))) {
             const { name } = execArray.groups!;
             exports.push({ path: file.path, name });
