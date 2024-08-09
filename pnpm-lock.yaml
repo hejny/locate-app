@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@promptbook/utils':
-        specifier: 0.61.0
-        version: 0.61.0
+        specifier: 0.63.0-1
+        version: 0.63.0-1
       type-fest:
         specifier: 2.13.0
         version: 2.13.0
@@ -307,8 +307,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@promptbook/utils@0.61.0':
-    resolution: {integrity: sha512-UIc4bQ+9DKwlrRUA7aRhQpo0vzrggTiv70Roy+lEdWam3SwYOcGyCgIk9IAqYEcfeBDsMHgDmBN4NDT97QiBdQ==}
+  '@promptbook/utils@0.63.0-1':
+    resolution: {integrity: sha512-U3DufjuFx9vdKT8rBYXrwZq9xVzpXqS58P0zrobWdI0mdnq/G72zucvkGf1KIIdVpakRZTsoNIzgsdCryzM5Yg==}
 
   '@sinonjs/commons@1.8.6':
     resolution: {integrity: sha512-Ky+XkAkqPZSm3NLBeUng77EBQl3cmeJhITaGHdYH8kjVB+aun3S4XBRti2zt17mtt0mIUDiNxYeoJm6drVvBJQ==}
@@ -1479,8 +1479,8 @@ packages:
     resolution: {integrity: sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==}
     engines: {node: '>= 8'}
 
-  spacetrim@0.11.37:
-    resolution: {integrity: sha512-OmoOQm5m8TXqmyPWVJpqwDiksWP3W9l8cXPPeCHz3GnkzhqNFt1KT6YykaBPt39oSvvSr2/YxnyoQ1MTarM7qA==}
+  spacetrim@0.11.39:
+    resolution: {integrity: sha512-S/baW29azJ7py5ausQRE2S6uEDQnlxgMHOEEq4V770ooBDD1/9kZnxRcco/tjZYuDuqYXblCk/r3N13ZmvHZ2g==}
 
   sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
@@ -2204,9 +2204,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@promptbook/utils@0.61.0':
+  '@promptbook/utils@0.63.0-1':
     dependencies:
-      spacetrim: 0.11.37
+      spacetrim: 0.11.39
 
   '@sinonjs/commons@1.8.6':
     dependencies:
@@ -3576,7 +3576,7 @@ snapshots:
 
   source-map@0.7.4: {}
 
-  spacetrim@0.11.37: {}
+  spacetrim@0.11.39: {}
 
   sprintf-js@1.0.3: {}
 
