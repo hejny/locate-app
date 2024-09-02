@@ -13,7 +13,7 @@
         "helper"
     ],
     "author": "Pavol Hejný <me@pavolhejny.com> (https://pavolhejny.com)",
-    "license": "SEE LICENSE IN LICENSE",
+    "license": "Apache-2.0",
     "bugs": {
         "url": "https://github.com/hejny/locate-app/issues"
     },
