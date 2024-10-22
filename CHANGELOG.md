@@ -11,3 +11,13 @@
 ## 2.4.0 _(2024-04-16)_
 
 -   Use library `@promptbook/utils` instead of deprecated `n12`
+
+## 2.5.0 _(2024-10-22)_
+
+Fix dependency chain
+
+-   Updated `type-fest` and `userhome` dependencies
+-   Every dependency has now specified `license`
+-   Use non-prerelease version of `@promptbook/utils`
+-   @see https://github.com/hejny/locate-app/pull/11
+-   @see https://github.com/hejny/spacetrim/pull/10
