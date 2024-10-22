@@ -19,6 +19,8 @@ export async function getAppName(executablePath: string): Promise<string> {
             return 'Internet Explorer';
         } else if (appName === 'msedge') {
             return 'Edge';
+        } else if (appName === 'google-chrome') {
+            return 'Chrome';
         } else {
             return capitalize(appName);
         }
